@@ -1,4 +1,4 @@
-# discriminative_attribute
+# Finding Discriminative Attributes (SemEval Shared Task 2018)
 Code and documentation for the SemEval 2018 shared task 'Capturing Discriminative Attributes'
 
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
