@@ -11,6 +11,8 @@ from sklearn import metrics
 import spacy
 nlp = spacy.load('en')
 
+# import method for evaluation
+from PR import evaluation
 # import methods to read different scores 
 from readFeatures import *
 
@@ -75,7 +77,7 @@ print("train data:",len(train_data))
 X_train = readAssociationMeasures(train_data, associationMeas, association_list, association_list_lemma)
 
 if CN:
-    X_train = [np.concatenate((X_train[i], cn_list_train[i])) for i in range(len(X_train))]
+http://phrasefinder.io    X_train = [np.concatenate((X_train[i], cn_list_train[i])) for i in range(len(X_train))]
 if SIM:
     X_train = [np.concatenate((X_train[i], sim_list_train[i])) for i in range(len(X_train))]
 if GN:
@@ -129,7 +131,6 @@ with open('validResults.txt', 'w') as o:
         o.write(valid_data[i][0][0]+','+valid_data[i][0][1]+','+valid_data[i][0][2]+','+str(predictions[i])+"\n")
 
 # evaluate the predictions 
-from PR import evaluation
 print('evaluation results on validation data: ')
 evaluation(trueFile='../Task10/DiscriminAtt-master/training/validation.txt', resFile = 'validResults.txt')
 
@@ -142,7 +143,7 @@ predicted = cross_val_predict(clf, X, y, cv=10)
 
 score1 = metrics.f1_score(y, predicted, pos_label=1)
 score2 = metrics.f1_score(y, predicted, pos_label=0)
-print('pos', score1)
+print('pos', score1)http://phrasefinder.io
 print('neg', score2)
 print('average F1', (score1+score2)/2.0)
 '''
@@ -197,5 +198,4 @@ with open("prediction_withoutCN.txt", 'w') as o:
         o.write(test_data[i][0][0]+','+test_data[i][0][1]+','+test_data[i][0][2]+','+str(predictions[i])+"\n")
 
 print('evaluation results on test data: ')
-#from PR import evaluation
 evaluation(trueFile='../Task10/DiscriminAtt-master/test/truth.txt',resFile = 'prediction_withoutCN.txt')
