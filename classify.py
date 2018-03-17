@@ -193,9 +193,9 @@ clf.fit(X, y)
 
 predictions = clf.predict(X_test)
 
-with open("prediction_withoutCN.txt", 'w') as o:
+with open("prediction.txt", 'w') as o:
     for i in range(len(predictions)):
         o.write(test_data[i][0][0]+','+test_data[i][0][1]+','+test_data[i][0][2]+','+str(predictions[i])+"\n")
 
 print('evaluation results on test data: ')
-evaluation(trueFile='../Task10/DiscriminAtt-master/test/truth.txt',resFile = 'prediction_withoutCN.txt')
+evaluation(trueFile='../Task10/DiscriminAtt-master/test/truth.txt',resFile = 'prediction.txt')
