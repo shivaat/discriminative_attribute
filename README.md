@@ -14,6 +14,7 @@ In summary, we have four sets of different *Score*s each used in computing *DISC
 
 In order to speed up the evaluation, in this repo we upload all the pre-computed scores in separate folders ([ConceptNet](http://conceptnet.io), [Sketch Engine](https://www.sketchengine.co.uk/), [Google Ngrams](http://phrasefinder.io), and Word2vec Similarity). In the script `classify.py`, we load these scores and feed them as features to the classifier.
 
+### To Do
 The scripts for computing each sets of scores will be uploaded in their corresponding directories.
 
 
