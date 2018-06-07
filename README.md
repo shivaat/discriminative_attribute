@@ -1,5 +1,5 @@
 # Finding Discriminative Attributes 
-Code and documentation for the SemEval 2018 shared task "Capturing Discriminative Attributes":
+Code and documentation for the SemEval 2018 shared task `Capturing Discriminative Attributes`:
 
 If you use the code from this repository please cite the following paper:
 
@@ -16,7 +16,7 @@ If you use the code from this repository please cite the following paper:
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
 To model semantic difference, we define a discriminative score as follows:
 
-*DISC-Score(w1,w2,attr) = Score(w1, attr)−Score(w2, attr)*
+`*DISC-Score(w1,w2,attr) = Score(w1, attr)−Score(w2, attr)*`
 
 whemojtabare w1,w2 and attr are the first, second, and third word respectively. Score is a variable function of relation between two words which we compute from different resources.
 
