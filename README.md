@@ -1,11 +1,15 @@
 # Finding Discriminative Attributes 
 Code and documentation for the SemEval 2018 shared task "Capturing Discriminative Attributes":
 
-If you use the codefrom this repository please cite the following paper:
+If you use the code from this repository please cite the following paper:
 
-
-`Shiva Taslimipoor, Omid Rohanian, Le An Ha, Gloria Corpas, Ruslan Mitkov: Wolves at SemEval-2018 Task 10 (2018): Semantic
-Discrimination based on Knowledge and Association. In *Proceedings of The 12th International Workshop on Semantic Evaluation*, pp. 972-976.`
+@inproceedings{taslimipoor2018wolves,
+  title={Wolves at SemEval-2018 Task 10: Semantic Discrimination based on Knowledge and Association},
+  author={Taslimipoor, Shiva and Rohanian, Omid and Ha, Le An and Corpas Pastor, Gloria and Mitkov, Ruslan},
+  booktitle={Proceedings of The 12th International Workshop on Semantic Evaluation},
+  pages={972--976},
+  year={2018}
+}
 
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
 To model semantic difference, we define a discriminative score as follows:
