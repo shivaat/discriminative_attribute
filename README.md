@@ -16,7 +16,7 @@ If you use the code from this repository please cite the following paper:
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
 To model semantic difference, we define a discriminative score as follows:
 
-https://latex.codecogs.com/gif.latex?%5Cmathcal%7BW%7D%28A%2Cf%29%20%3D%20%28T%2C%5Cbar%7Bf%7D%29
+<img src="https://latex.codecogs.com/gif.latex?\mathcal{W}(A,f)&space;=&space;(T,\bar{f})" title="\mathcal{W}(A,f) = (T,\bar{f})" />
 
 whemojtabare w1,w2 and attr are the first, second, and third word respectively. Score is a variable function of relation between two words which we compute from different resources.
 
