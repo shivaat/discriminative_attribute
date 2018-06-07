@@ -16,7 +16,7 @@ If you use the code from this repository please cite the following paper:
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
 To model semantic difference, we define a discriminative score as follows:
 
-<img src="https://latex.codecogs.com/gif.latex?DISC-Score(w1,w2,attr)&space;=&space;Score(w1,&space;attr)−Score(w2,&space;attr)" title="DISC-Score(w1,w2,attr) = Score(w1, attr)−Score(w2, attr)" />
+<img src="https://latex.codecogs.com/gif.latex?DISC_-Score(w1,w2,attr)&space;=&space;Score(w1,&space;attr)&space;-&space;Score(w2,&space;attr)" title="DISC_-Score(w1,w2,attr) = Score(w1, attr) - Score(w2, attr)" />
 
 whemojtabare w1,w2 and attr are the first, second, and third word respectively. Score is a variable function of relation between two words which we compute from different resources.
 
