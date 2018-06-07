@@ -22,9 +22,9 @@ whemojtabare w1,w2 and attr are the first, second, and third word respectively. 
 
 We make use of a variety of different association measures derived from huge corpora, and also pre-trained distributional semantic vectors. To augment our method with structured knowledge, we utilise [a knowledge-based ontology](http://conceptnet.io/). We use the feature set in supervised and unsupervised settings.
 
-In summary, we have four sets of different *Score*s each used in computing <img src="https://latex.codecogs.com/gif.latex?DISC_-Score" title="DISC_-Score" />s.
+In summary, we have four sets of different <img src="https://latex.codecogs.com/gif.latex?Score" title="Score" />s each used in computing <img src="https://latex.codecogs.com/gif.latex?DISC_-Score" title="DISC_-Score" />s.
 
-In order to speed up the evaluation, in this repo we upload all the pre-computed scores in separate folders ([ConceptNet](http://conceptnet.io), [Sketch Engine](https://www.sketchengine.co.uk/), [Google Ngrams](http://phrasefinder.io), and Word2vec Similarity). In the script `classify.py`, we load these scores and feed them as features to the classifier.
+In order to speed up the evaluation, in this repo we upload all the pre-computed scores in separate folders ([ConceptNet](http://conceptnet.io), [Sket<img src="https://latex.codecogs.com/gif.latex?Score" title="Score" />ch Engine](https://www.sketchengine.co.uk/), [Google Ngrams](http://phrasefinder.io), and Word2vec Similarity). In the script `classify.py`, we load these scores and feed them as features to the classifier.
 
 ### To Do
 The scripts for computing each set of scores will be uploaded in their corresponding directories.
