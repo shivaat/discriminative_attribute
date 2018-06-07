@@ -18,7 +18,7 @@ To model semantic difference, we define a discriminative score as follows:
 
 <img src="https://latex.codecogs.com/gif.latex?DISC_-Score(w1,w2,attr)&space;=&space;Score(w1,&space;attr)&space;-&space;Score(w2,&space;attr)" title="DISC_-Score(w1,w2,attr) = Score(w1, attr) - Score(w2, attr)" />
 
-whemojtabare w1,w2 and attr are the first, second, and third word respectively. Score is a variable function of relation between two words which we compute from different resources.
+where w1,w2 and attr are the first, second, and third word respectively. Score is a variable function of relation between two words which we compute from different resources.
 
 We make use of a variety of different association measures derived from huge corpora, and also pre-trained distributional semantic vectors. To augment our method with structured knowledge, we utilise [a knowledge-based ontology](http://conceptnet.io/). We use the feature set in supervised and unsupervised settings.
 
