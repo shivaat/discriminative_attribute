@@ -3,6 +3,7 @@ Code and documentation for the SemEval 2018 shared task "Capturing Discriminativ
 
 If you use the code from this repository please cite the following paper:
 
+```
 @inproceedings{taslimipoor2018wolves,
   title={Wolves at SemEval-2018 Task 10: Semantic Discrimination based on Knowledge and Association},
   author={Taslimipoor, Shiva and Rohanian, Omid and Ha, Le An and Corpas Pastor, Gloria and Mitkov, Ruslan},
@@ -10,6 +11,7 @@ If you use the code from this repository please cite the following paper:
   pages={972--976},
   year={2018}
 }
+```
 
 For this shared task we developed a classification system to determine whether an attribute word can distinguish one word from another.
 To model semantic difference, we define a discriminative score as follows:
