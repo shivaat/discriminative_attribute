@@ -5,7 +5,7 @@ If you use the code from this repository please cite the following paper:
 
 ```
 @inproceedings{taslimipoor2018wolves,
-  title={Wolves at SemEval-2018 Task 10: Semantic Discrimination based on Knowledge and Association},<img src="https://latex.codecogs.com/gif.latex?Score" title="Score" />
+  title={Wolves at SemEval-2018 Task 10: Semantic Discrimination based on Knowledge and Association},
   author={Taslimipoor, Shiva and Rohanian, Omid and Ha, Le An and Corpas Pastor, Gloria and Mitkov, Ruslan},
   booktitle={Proceedings of The 12th International Workshop on Semantic Evaluation},
   pages={972--976},
